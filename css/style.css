@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Nunito+Sans:opsz,wght@6..12,300&family=Oxygen:wght@300;400&family=Roboto+Condensed:wght@300&family=Work+Sans:wght@300&display=swap');
+
+/* FONTS
+font-family: 'Lato', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Oxygen', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Work Sans', sans-serif; */
+
+h1{
+    text-align: center;
+    padding-top: 90px;
+    font-family: 'Oxygen', sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(0, 0, 0) 1px 0 5px;
+}
+
+.menu ul{
+    list-style-type: none;
+    background-color: rgb(37, 202, 106);
+    overflow: hidden;
+    position: fixed;
+    top: 0; 
+    left: 0;
+    width: 100%;
+}
+
+.menu li{
+    float: left;
+}
+
+.menu li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.menu li a:hover{
+    background-color: rgb(26, 173, 53);
+    color: rgb(0, 0, 0);
+}
+
+.button{
+    width: 70px;
+    padding-top: 5px;
+    
+}
+
+.user{
+    text-align: center;
+    margin-top: 90px;
+}
+
+.username{
+    margin-right: 187px;
+    padding-bottom: 2px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}

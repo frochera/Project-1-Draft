@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Nunito+Sans:opsz,wght@6..12,300&family=Oxygen:wght@300;400&family=Roboto+Condensed:wght@300&family=Work+Sans:wght@300&display=swap');
+
+.menu ul{
+    list-style-type: none;
+    background-color: rgb(37, 202, 106);
+    overflow: hidden;
+    position: fixed;
+    top: 0; 
+    left: 0;
+    width: 100%;
+}
+
+.menu li{
+    float: left;
+}
+
+.menu li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.menu li a:hover{
+    background-color: rgb(26, 173, 53);
+    color: rgb(0, 0, 0);
+}
