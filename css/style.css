@@ -51,7 +51,7 @@ h1{
 
 .user{
     text-align: center;
-    margin-top: 12%;
+    margin-top: 10%;
 }
 
 .username{
@@ -59,4 +59,11 @@ h1{
     padding-bottom: 2px;
     font-family: 'Lato', sans-serif;
     color: white;
+}
+
+audio{
+    display: block;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-left: auto;
 }
