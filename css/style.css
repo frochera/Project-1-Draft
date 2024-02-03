@@ -7,6 +7,11 @@ font-family: 'Oxygen', sans-serif;
 font-family: 'Roboto Condensed', sans-serif;
 font-family: 'Work Sans', sans-serif; */
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 h1{
     text-align: center;
     padding-top: 90px;
@@ -17,7 +22,7 @@ h1{
 
 .menu ul{
     list-style-type: none;
-    background-color: rgb(37, 202, 106);
+    background: linear-gradient(rgb(37,202,106), rgb(119, 218, 157), rgb(52, 120, 82));
     overflow: hidden;
     position: fixed;
     top: 0; 

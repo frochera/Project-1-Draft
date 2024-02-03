@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Nunito+Sans:opsz,wght@6..12,300&family=Oxygen:wght@300;400&family=Roboto+Condensed:wght@300&family=Work+Sans:wght@300&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .menu ul{
     list-style-type: none;
-    background-color: rgb(37, 202, 106);
+    background: linear-gradient(rgb(37,202,106), rgb(119, 218, 157), rgb(52, 120, 82));
     overflow: hidden;
     position: fixed;
     top: 0; 
