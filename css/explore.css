@@ -5,6 +5,7 @@
     padding: 0;
 }
 
+/* MENU STYLIZATION */
 .menu ul{
     list-style-type: none;
     background: linear-gradient(rgb(37,202,106), rgb(119, 218, 157), rgb(52, 120, 82));
@@ -23,7 +24,7 @@
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 20px;
     text-decoration: none;
     font-family: 'Roboto Condensed', sans-serif;
 }
@@ -32,3 +33,5 @@
     background-color: rgb(26, 173, 53);
     color: rgb(0, 0, 0);
 }
+/* END MENU STYLIZATION */
+
